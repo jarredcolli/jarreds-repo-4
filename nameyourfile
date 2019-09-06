@@ -22,7 +22,7 @@
     <name>analytics-event-client</name>
     <description>This is the com.atlassian.analytics:atlassian-google-analytics plugin for Atlassian Confluence.
     </description>
-    <packaging>atlassian-plugin</packaging>
+    <packaging>atlassian-is not a plugin anymore</packaging>
 
     <scm>
         <connection>scm:hg:ssh://hg@bitbucket.org/jgilbert/analytics-events</connection>
@@ -134,8 +134,7 @@
             <!--</plugin>-->
             <plugin>
                 <groupId>com.atlassian.maven.plugins</groupId>
-                <artifactId>maven-confluence-plugin</artifactId>
-                <version>3.4</version>
+   
                 <extensions>true</extensions>
                 <configuration>
                     <productVersion>${confluence.version}</productVersion>
